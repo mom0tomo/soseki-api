@@ -255,7 +255,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.17)
   database_rewinder
-  dotenv-rails (~> 2.2.1)
+  dotenv-rails
   factory_bot_rails
   guard-bundler
   guard-rails

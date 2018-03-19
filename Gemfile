@@ -6,6 +6,7 @@ gem 'rails', '5.1.5'
 gem 'pg'
 gem 'puma'
 gem 'seed-fu'
+gem 'dotenv-rails'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -18,7 +19,6 @@ group :development do
   gem 'byebug'
 
   group :test do
-    gem 'dotenv-rails', '~> 2.2.1'
     gem 'byebug', platform: :mri
     gem 'pry-rails'
     gem 'pry-doc'
