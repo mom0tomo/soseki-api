@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 gem 'rails', '5.1.5'
 gem 'pg'
 gem 'puma'
+gem 'seed-fu'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
