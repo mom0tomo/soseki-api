@@ -42,7 +42,7 @@ group :test do
     gem 'guard-rubocop'
     gem 'guard-bundler', require: false
     gem 'guard-yard'
-    gem 'rspec-rails', '~> 3.6.0'
+    gem 'rspec-rails', '~> 3.9.0'
     gem 'factory_bot_rails'
     gem 'database_rewinder'
   end
